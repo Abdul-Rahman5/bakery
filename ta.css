@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* start header  */
+.header{
+    background-image: url(images/drew-coffman-1872.jpg);
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: white;
+}
+.header p{
+font-size: 20px;
+padding-top: 30px;
+
+}
+.header h1{
+font-size: 70px;
+padding-top: 30px;
+
+}
+/* strat mune  */
+.mune {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.mune .image{
+    float: left;
+}
+.mune .image img{
+    width: 100%;
+}
+.mune ul{
+    list-style: none;
+    }
+    .mune ul li{
+        float: right;
+        margin: 20px;
+    }
+    .mune ul li:hover{
+        color: tan;
+    }
+     .claer-fix{
+        clear: both;
+    }
+/* end mune  */
+.header button{
+padding: 10px 15px;
+margin-top: 30px;
+background-color: transparent;
+border-radius: 10px;
+}
+.header button a{
+    color: white;
+text-decoration: none;
+font-size: 20px;
+
+}
+/* End header  */
+/* start who */
+.who{
+    background-color: teal;
+    margin-top: 50px;
+}
+.who .image{
+    width: 45%;
+    float: left;
+    margin: 20px ;
+}
+.who img{
+    width: 100%;
+}
+.who .cont{
+    width: 45%;
+    float: right;
+    margin: 20px;
+}
+.who h2{
+    font-size: 40px ;
+    color: #888;
+}
+.who p{
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+.who ul{
+    list-style: none;
+}
+.who ul li{
+    font-size: 20px;
+    margin-top: 30px;
+}
+/* end who */
